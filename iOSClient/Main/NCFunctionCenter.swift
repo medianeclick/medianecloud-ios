@@ -587,7 +587,7 @@ import JGProgressHUD
         }
 
         let homeUrl = NCUtilityFileSystem.shared.getHomeServer(account: appDelegate.account)
-        var serverUrl = (copyItems[0] as! Nextcloud.tableMetadata).serverUrl
+        var serverUrl = (copyItems[0] as! medianecloud.tableMetadata).serverUrl
 
         // Setup view controllers such that the current view is of the same directory the items to be copied are in
         while true {
